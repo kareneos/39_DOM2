@@ -3,7 +3,7 @@ function validateForm(){
     var apellido = document.getElementById("lastname").value;
     var correo = document.getElementById("input-email").value;
     var contrasena = document.getElementById("input-password").value;
-    var selectBici = document.getElementsByTagName('select')[0].selectedIndex;  
+    var selectBici = document.getElementsByTagName('select')[0].selectedIndex; 
     //crea span
     var span = document.createElement("span");
     //llama divs para juntar nodo hijo
